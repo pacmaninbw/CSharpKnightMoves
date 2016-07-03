@@ -3,10 +3,10 @@ using System;
 namespace KnightMoves_CSharp
 {
     public class KMBoardLocation {
-        String Name;
-        uint Row;
-        uint Column;
-        uint BoardDimension;
+        private String Name;
+        private uint Row;
+        private uint Column;
+        private uint BoardDimension;
 
         public KMBoardLocation()
         {
